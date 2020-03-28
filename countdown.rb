@@ -6,8 +6,9 @@ def countdown(number)
   number=number-1
 end
 def countdown_with_sleep(num)
-  1.times do
+  while(num > 0)
    sleep(1)
+   num=num-1
   end 
   end
 return "HAPPY NEW YEAR!"
